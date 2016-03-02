@@ -19,7 +19,6 @@ h1 {
   width: 35%;
   float: left;
   position: relative;
-  border-bottom: 1px solid #cacaca;
 }
 
 .logo {
@@ -38,9 +37,15 @@ h1 {
   text-align: right;
 }
 
-.column1 h2 {
+.intro {
+  position: absolute;
+  right: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.intro h2 {
   text-align: right;
-  width: 100%;
+  max-width: 200px;
 }
 
 /*--Right Column Stylings--*/
