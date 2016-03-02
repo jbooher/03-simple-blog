@@ -82,6 +82,7 @@ h1, h2 {
 .articleName h1:first-child {
   font-size: 3rem;
   margin-bottom: 5px;
+  text-shadow: #1a1a1a 1px 1px 2px;
 }
 
 .articleName small {
