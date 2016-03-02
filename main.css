@@ -1,10 +1,16 @@
 body {
   margin: 0;
   font-family: Helvetica;
+  background-color: #eee;
 }
 
-h1 {
+a {
+  text-decoration: none;
+}
+
+h1, h2 {
   font-family: 'Anton', Helvetica;
+  color: #1a1a1a;
 }
 
 .heading {
@@ -16,22 +22,24 @@ h1 {
 /*--Left Column Stylings--*/
 
 .column1 {
-  width: 35%;
+  width: 30%;
   float: left;
   position: relative;
+  padding-right: 10px;
 }
 
 .logo {
   float: right;
-  background-color: #fff;
+  background-color: #eee;
   width: 75px;
   height: 75px;
-  border: 2px solid #000;
+  border: 2px solid #1a1a1a;
   border-radius: 50px;
   margin: -40px 0 0 0;
 }
 
 .column1 h1 {
+  font-size: 3rem;
   clear: right;
   width: 100%;
   text-align: right;
@@ -51,6 +59,38 @@ h1 {
 /*--Right Column Stylings--*/
 
 .column2 {
-  width: 65%;
+  width: 60%;
   float: left;
+  position: relative;
+  margin-left: 10px;
+}
+
+.articleName h1 {
+  font-size: 3rem;
+  margin-bottom: 5px;
+}
+
+.articleName small {
+  font-style: italic;
+  font-size: .8rem;
+  color: #222;
+}
+
+.articleContent {
+  position: absolute;
+  left: 0;
+  border-bottom: 1px solid #cacaca;
+}
+
+.articleContent p {
+  text-align: left;
+  max-width: 500px;
+}
+
+.articleContent img {
+  width: 500px;
+  height: auto;
+  margin-top: 5px;
+  border: 1px solid #1a1a1a;
+  border-radius: 2px;
 }
