@@ -182,10 +182,11 @@ h1, h2 {
 
 /*--INTERACTIVITY!--*/
 
-.articleContent img:hover, .logo:hover {
-  margin: -5px 0 10px -5px;
+.articleContent img:hover {
   box-shadow: 5px 5px 6px 2px #3c3c3c;
+  margin: -5px 0 10px -5px;
 }
+
 
 .followButton:hover {
   background-color: #000099;
