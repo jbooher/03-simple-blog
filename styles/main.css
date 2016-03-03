@@ -108,6 +108,7 @@ h1, h2 {
   margin-top: 5px;
   border: 1px solid #1a1a1a;
   border-radius: 2px;
+  /*box-shadow: 3px 3px 0 0 #222;*/
 }
 
 /*--Footer Styling--*/
@@ -116,11 +117,11 @@ h1, h2 {
   width: 400px;
   background-color: #eee;
   border: 1px solid #1a1a1a;
-  border-radius: 5px;
+  border-radius: 10px;
   position: fixed;
   bottom: 5px;
   right: 10px;
-  box-shadow: 0 8px 16px 0 #1a1a1a;
+  box-shadow: 0 16px 32px 0 #1a1a1a;
 }
 
 .footerHeadline {
@@ -162,6 +163,7 @@ h1, h2 {
   margin: 1px 3px 1px 10px;
   text-align: center;
   position: relative;
+  box-shadow: inset 0 3px 5px 0 #1a1a1a;
 }
 
 .followButton div:only-child {
@@ -178,10 +180,10 @@ h1, h2 {
 /*--INTERACTIVITY!--*/
 
 .articleContent img:hover, .logo:hover {
-  box-shadow: 0 8px 16px 0 #1a1a1a;
+  box-shadow: 5px 5px 6px 2px #3c3c3c;
 }
 
 .followButton:hover {
   background-color: #0000e6;
-  box-shadow: 0 8px 16px 0 #1a1a1a;
+  box-shadow: inset 0 8px 16px 0 #1a1a1a;
 }
