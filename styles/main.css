@@ -33,11 +33,12 @@ h1, h2 {
 
 /*--Header Stylings--*/
 
-.heading {
+header {
+  background-image: url(../images/wrestling-crowd.jpg);
+  background-position: center;
   width: 100%;
-  height: 300px;
-  margin: 0 0 0 0;
-  border-bottom: 10px solid #1a1a1a;
+  height: 310px;
+  border-bottom: 10px solid #1a1a1a
 }
 
 /*--Left Column Stylings--*/
